@@ -1,0 +1,4 @@
+== If_vs_begin
+How:
+1) rails s production
+2) time ruby runner.rb
