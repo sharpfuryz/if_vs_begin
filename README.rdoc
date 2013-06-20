@@ -1,4 +1,12 @@
 == If_vs_begin
 How:
-1) rails s production
-2) time ruby runner.rb
+1) Run rails in production mode 
+Under UNIX-like OS:
+Run time ruby test_begin.rb 
+Run time ruby test_if.rb
+
+After each test you should have 3 values in seconds (Sys, User, Real). Compare it with data set from another test,
+less value is better. 
+Also you should experiment with Random param in test_* files, theoretically greater Rand should give us better results for exceptions.
+
+Feel free to email me || send message on Github.
